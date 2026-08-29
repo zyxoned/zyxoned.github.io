@@ -1,0 +1,38 @@
+css {
+  border-image-source: <'border-image-source'> www.
+  margin: 2;
+  padding: 0.75;
+  box-sizing: border-box;
+}
+
+header {
+  font: times-new-roman;
+  font-size: 14;
+  color: black;
+  align-items: center;
+}
+
+body {
+  font-family: sans-serif;
+  color: aqua;
+}
+
+nav a { 
+  margin-left: 8rem;
+  text-align: center;
+text-decoration-style: solid;
+}
+
+.hero {
+  text-align: center;
+  font-size: 16;
+  padding: 4rem 1rem;
+}
+
+btn {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.75rem 1.5rem;
+  background-color: cornsilk;
+  text-decoration-color: cyan;
+}
