@@ -5,7 +5,8 @@ css {
   box-sizing: border-box;
 }
 
-header {
+header
+{
   font: times-new-roman;
   font-size: 14;
   color: black;
@@ -21,6 +22,28 @@ nav a {
   margin-left: 8rem;
   text-align: center;
 text-decoration-style: solid;
+}
+
+.hero-wrapper {
+  width: 100%;
+  overflow: hidden;
+  perspective: 1000px;
+  height: 400px;
+  position: relative;
+  
+}
+
+.hero-img {
+  width: 140%;
+  height: 100%;
+  margin-left: -20%;
+  background: url('./forest.jpg') center/cover no-repeat;
+  transform-origin: center center;
+  transition: transform 0.1ease-out;
+  webkit-mask-image: radial-gradient(ellipse 70%,
+  100% at center, black 90%, transparent 100%);
+  mask-image: radial-gradient(ellipse 70%,
+  100% at center, black 90%, transparent 100%);
 }
 
 .hero {
